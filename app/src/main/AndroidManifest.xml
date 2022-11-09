@@ -2,14 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.deltabot">
 
-    <!-- AUTORISATIONS BLUETOOTH -->
-
-    <!-- SCAN APPAREILS ALENTOURS -->
-    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
-    <!-- DISCUSSION UNIQUEMENT AVEC APPAREILS CONNECTES -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-
-    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
 
     <application
         android:allowBackup="true"
